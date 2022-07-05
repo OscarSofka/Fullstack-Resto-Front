@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10109px;
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/022/165/166/4k/khyzyl-saleem-polee.jpg?1574348188);
+    
+}

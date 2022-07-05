@@ -1,0 +1,45 @@
+.podioContainer{
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(https://nervosnetwork.github.io/godwoken-examples/html/images/fireworks.jpg);
+    height: 551px;
+    width: 100%;
+}
+.jugador{
+    height: 61px;
+    width: 100%;
+}
+.podio{
+    border-style: double;
+    border-width: 25px;
+    border-color: white;
+    background-color: gold;
+    padding-left: 33%;
+}
+
+.jugadorName{
+    color: white;
+    font-size: 15px;
+}
+.namelayout{
+    background-color:darkslategrey;
+    border-style: double;
+    border-width: 8px;
+    border-color: black;
+    padding: 15px;
+    border-radius: 30px;
+    width:50%;
+    margin-top: 5px;
+    margin-bottom: 5px;;
+}
+.podio{
+    font-family: fantasy;
+    font-size: 15px;
+    color: black;
+    align-content: space-around;
+    justify-content: center;
+    align-content: center;
+}

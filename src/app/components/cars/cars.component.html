@@ -1,0 +1,39 @@
+<app-game></app-game>
+<mat-grid-list cols="4" rowHeight="170px">
+
+  <mat-grid-tile [colspan]="1" [rowspan]="1">
+    <label *ngIf="jugName1" for="inputJug1" class="labelJug">{{position1}} {{jugName1}} </label>
+    <input type="text" id="inputJug1" class="inputJug" [(ngModel)]="jugName1">  
+
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="3" [rowspan]="1" class="racerow"> 
+      <div class="containerRace">
+        <input type="range" class="rangeCustom" min="0" max="3000" value="{{dist1}}" disabled>
+      </div>
+  </mat-grid-tile>
+
+  <mat-grid-tile [colspan]="1" [rowspan]="1">
+    <label *ngIf="jugName2" for="inputJug1" class="labelJug">{{position2}} {{jugName2}}</label>
+    <input type="text" id="inputJug1" class="inputJug" [(ngModel)]="jugName2">
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="3" [rowspan]="1" class="racerow"> 
+    <div class="containerRace">
+      <input type="range" class="rangeCustom" min="0" max="3000" value="{{dist2}}" disabled>
+    </div>
+  </mat-grid-tile>
+
+  <mat-grid-tile [colspan]="1" [rowspan]="1">
+    <label  *ngIf="jugName3" for="inputJug1" class="labelJug">{{position3}} {{jugName3}}</label>
+    <input type="text" id="inputJug1" class="inputJug" [(ngModel)]="jugName3">
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="3" [rowspan]="1" class="racerow"> 
+    <div class="containerRace">
+      <input type="range" class="rangeCustom" min="0" max="3000" value="{{dist3}}" disabled>
+    </div>
+  </mat-grid-tile>
+
+
+</mat-grid-list>
+<button (click)="crearJuego()">crearjuego</button>
+<button (click)="iniciarJuego()">iniciarjuego</button>
+<button (click)="podio(idG)" >Estadisticas del juego</button>

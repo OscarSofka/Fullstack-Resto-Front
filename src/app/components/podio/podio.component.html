@@ -1,0 +1,26 @@
+<app-newgamebar></app-newgamebar>
+<div class="podioContainer">
+ 
+            <div class="podio">
+                <div class="namelayout" *ngFor="let resultados of result">
+                    <p>
+                        Jugador:  {{resultados.nombre}}
+                    </p>
+                    <p>
+                        IDcarril: {{resultados.carrilId}}
+                    </p>
+                   <p>
+                        Tiempo:   {{resultados.tiempoRecorrido}}
+                   </p> 
+                   <p>
+                        Inicio:   {{resultados.fechaInicio}}
+                   </p>  
+                   <p>
+                        Fin:      {{resultados.fechaFin}}
+                   </p>              
+
+                </div>
+            </div>
+   
+   <button (click)="resultados()"> resultados</button>
+</div>

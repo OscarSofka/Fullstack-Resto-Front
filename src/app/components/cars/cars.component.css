@@ -1,0 +1,50 @@
+mat-grid-tile {
+    background: rgb(30, 32, 32);
+  }
+.labelJug{
+  color: white;  
+  font-size: 25px;
+  padding-left: 50px;
+}
+.inputJug{
+    border-radius: 15px;
+    margin-left: 15px;
+    padding-left: 5px;
+    width: 40px;
+}
+.racerow{
+    background-image: url(https://us.123rf.com/450wm/ravennka/ravennka1510/ravennka151000035/46180352-sin-patr%C3%B3n-de-p%C3%ADxeles-de-8-bits-verde-hierba-textura-c%C3%A9sped.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+
+.containerRace{
+    margin-left: -850px;
+    background-size: contain;    
+    background-image: url(https://us.123rf.com/450wm/ravennka/ravennka1510/ravennka151000035/46180352-sin-patr%C3%B3n-de-p%C3%ADxeles-de-8-bits-verde-hierba-textura-c%C3%A9sped.jpg);
+   
+}
+.rangeCustom{
+    -webkit-appearance: none;
+    border-style: dotted;
+    border-color: black;
+    width: 730%
+
+}
+.rangeCustom::-webkit-slider-runnable-track{
+    height: 180px;
+    background-image: url(https://img.freepik.com/vector-gratis/pista-carreras-inicio-meta_97886-1173.jpg?w=2000);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.rangeCustom::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    border: none;
+    margin-top: 40px;
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-image: url(https://i.pinimg.com/originals/46/cc/f1/46ccf1eb2c317642e702313020812921.png);
+}

@@ -1,0 +1,13 @@
+<!-- Image and text -->
+<nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand p-2" href="#">
+      <img src="https://www.iconpacks.net/icons/1/free-car-icon-1057-thumb.png" width="50" height="50" class="d-inline-block align-top" alt="">
+       The best Car Game On Internet
+    </a>
+    <a class="navbar-brand" href="#" *ngIf="userLogged|async as user">       
+        {{user.email}} 
+    </a>
+    <a class="navbar-brand" routerLink="/cars" *ngIf="userLogged|async as user">       
+        Juguemos YA! 
+    </a>
+</nav>
